@@ -40,29 +40,6 @@ export default function Home() {
                   Connect with reliable laborers for construction, plumbing,
                   electrical work, and more.
                 </p>
-                <div className="flex items-center justify-center gap-4 pt-4 w-full">
-                  <div className="flex gap-8">
-                    <div className="relative flex-1 w-2/5">
-                      <Search className="absolute left-3 top-3 h-5 w-5 text-muted-foreground" />
-                      <Input
-                        placeholder="What service do you need?"
-                        className="pl-10 pr-20 py-6 text-base"
-                      />
-                    </div>
-                    <div className="relative flex-1 sm:flex-initial w-2/5">
-                      <MapPin className="absolute left-3 top-3 h-5 w-5 text-muted-foreground" />
-                      <Input
-                        placeholder="Location"
-                        className="pl-10 py-6 text-base"
-                      />
-                    </div>
-                  </div>
-                  <div className="flex justify-center items-center">
-                    <Button size="lg" className="px-8">
-                      Search
-                    </Button>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
@@ -93,10 +70,6 @@ export default function Home() {
                   <p className="text-sm text-muted-foreground mb-4">
                     {category.description}
                   </p>
-                  <span className="text-primary text-sm font-medium inline-flex items-center group-hover:underline">
-                    View Workers
-                    <ArrowRight className="ml-1 h-4 w-4" />
-                  </span>
                 </Link>
               ))}
             </div>
@@ -174,19 +147,10 @@ export default function Home() {
                       <span className="text-sm font-medium">
                         ₹{worker.rate}/hour
                       </span>
-                      <Button variant="outline" size="sm">
-                        View Profile
-                      </Button>
                     </div>
                   </div>
                 </div>
               ))}
-            </div>
-            <div className="flex justify-center mt-10">
-              <Button variant="outline" className="gap-2">
-                View All Workers
-                <ArrowRight className="h-4 w-4" />
-              </Button>
             </div>
           </div>
         </section>
@@ -302,10 +266,10 @@ export default function Home() {
               </div>
               <div className="flex flex-col sm:flex-row gap-3">
                 <Button size="lg" className="px-8">
-                  Find Workers
+                  <Link href="/dashboard/user">Find Workers</Link>
                 </Button>
                 <Button variant="outline" size="lg">
-                  Become a Worker
+                  <Link href="/dashboard/labour">Become a Worker</Link>
                 </Button>
               </div>
             </div>

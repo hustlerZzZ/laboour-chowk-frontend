@@ -36,14 +36,6 @@ export default function Header() {
                 Dashbooard
               </Link>
             )}
-            {pathname === "/dashboard/user/post-job" && (
-              <Link
-                href=""
-                className="bg-blue-600 text-white px-4 py-2 rounded cursor-pointer hover:bg-blue-700 transition duration-200 ease-in-out"
-              >
-                Post Job
-              </Link>
-            )}
           </div>
         </div>
       </div>

@@ -16,7 +16,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Search, MapPin, Briefcase, Clock, DollarSign } from "lucide-react";
+import { Search, MapPin, Clock, DollarSign } from "lucide-react";
 
 export default function Home() {
   return (
@@ -183,7 +183,7 @@ export default function Home() {
                       </div>
                     </CardContent>
                     <CardFooter>
-                      <Link href="/jobs/1" className="w-full">
+                      <Link href="/dashboard/labour/3/apply" className="w-full">
                         <Button className="w-full">View Details</Button>
                       </Link>
                     </CardFooter>
@@ -225,7 +225,7 @@ export default function Home() {
                       </div>
                     </CardContent>
                     <CardFooter>
-                      <Link href="/jobs/2" className="w-full">
+                      <Link href="/dashboard/labour/3/apply" className="w-full">
                         <Button className="w-full">View Details</Button>
                       </Link>
                     </CardFooter>
@@ -268,7 +268,7 @@ export default function Home() {
                       </div>
                     </CardContent>
                     <CardFooter>
-                      <Link href="/jobs/3" className="w-full">
+                      <Link href="/dashboard/labour/3/apply" className="w-full">
                         <Button className="w-full">View Details</Button>
                       </Link>
                     </CardFooter>

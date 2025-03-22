@@ -53,7 +53,7 @@ export default function PostJob() {
         <div className="container max-w-3xl px-4 md:px-6">
           <div className="mb-6">
             <Link
-              href="/"
+              href="/dashboard/user"
               className="inline-flex items-center gap-1 text-sm font-medium text-muted-foreground hover:text-foreground"
             >
               <ArrowLeft className="h-4 w-4" />
