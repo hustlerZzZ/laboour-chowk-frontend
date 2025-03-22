@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { LuConstruction } from "react-icons/lu";
 import {
@@ -9,15 +8,7 @@ import {
   MdElectricalServices,
   MdOutlinePlumbing,
 } from "react-icons/md";
-import {
-  Search,
-  MapPin,
-  ArrowRight,
-  Star,
-  Clock,
-  Users,
-  Shield,
-} from "lucide-react";
+import { Star, Clock, Users, Shield } from "lucide-react";
 import { GiGardeningShears } from "react-icons/gi";
 import { FaPaintRoller, FaTruckMoving } from "react-icons/fa";
 
